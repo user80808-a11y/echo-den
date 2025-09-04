@@ -30,8 +30,8 @@ echo -e "${GREEN}✅ Firebase CLI detected${NC}"
 # Set Firebase Functions configuration
 echo -e "${YELLOW}📝 Setting up Stripe configuration in Firebase Functions...${NC}"
 
-# Set Stripe secret key
-firebase functions:config:set stripe.secret_key="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"
+# Set Stripe secret key (replace with your actual key)
+firebase functions:config:set stripe.secret_key="your_stripe_secret_key_here"
 
 # Note: You'll need to set this manually in your Stripe dashboard
 echo -e "${YELLOW}⚠️  IMPORTANT: Set up your Stripe webhook secret:${NC}"
