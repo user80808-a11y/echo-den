@@ -14,12 +14,12 @@ import {
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyBkgpVyPyeteAymraqamGCheRKvOIA80i4",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "sleepvision-c0d73.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "sleepvision-c0d73",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "sleepvision-c0d73.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "337763729696",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:337763729696:web:d27c344e56b19ee81fd745",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCoFsT1x5XZOtJlW9YqjkZrBETsORtjjIs",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "sleepvision-2cf4e.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "sleepvision-2cf4e",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "sleepvision-2cf4e.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "1067576043258",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:1067576043258:web:6648b5f32c77bd7fa90b43",
 };
 
 let app: any = null;
